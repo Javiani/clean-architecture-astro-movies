@@ -4,7 +4,7 @@ const { item, path } = Astro.props
 
 <div class="mt-8">
     <a href={`${path}/${item.id}`}>
-        <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={`${item.title} Poster`} class="thumbnail hover:opacity-75 transition ease-in-out duration-150 min-h-105 block" />
+        <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={`${item.title} Poster`} class="thumbnail hover:opacity-75 transition ease-in-out duration-150 block" />
     </a>
     <div class="mt-2">
         <a href={`${path}/${item.id}`} class="text-lg mt-2 hover:text-gray-300">{item.title}</a>
