@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+body.loading #content{
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+body #content { 
+	animation: fade-in .4s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+}

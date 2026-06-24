@@ -1,0 +1,21 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "astro": "^7.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "jails-js": "^6.9.9",
+    "jails.stdlib": "^2.0.6",
+    "tailwindcss": "^4.3.1"
+  }
+}
