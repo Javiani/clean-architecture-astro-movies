@@ -1,9 +1,11 @@
 
 
 export const TMDBPeopleEntity = ({
+	
 	combined_credits = { cast : [] },
 	external_ids = Object(),
 	...data
+
 } = {}) => {
 	
 	const castMovies = combined_credits.cast || []
@@ -22,13 +24,16 @@ export const TMDBPeopleEntity = ({
 }
 
 const Person = ({
+	
 	profile_path 	= String(),
 	birthday 		= String(),
 	name 			= String(),
 	biography 		= String(),
 	place_of_birth 	= String(),
 	...data
+
 } = {}) => {
+	
 	return {
 		...data,
 		name,
@@ -41,12 +46,14 @@ const Person = ({
 }
 
 const KnownFor = ({
+
 	id 			= String(),
 	title 		= String(),
 	name 		= String(),
 	poster_path = String(),
 	media_type 	= String(),
 	...data
+
 } = {}) => {
 
 	return {
@@ -58,6 +65,7 @@ const KnownFor = ({
 }
 
 const Credits = ({
+	
 	id 				= String(),
 	title 			= String(),
 	name 			= String(),
@@ -66,6 +74,7 @@ const Credits = ({
 	media_type 		= String(),
 	character 		= String(),
 	...data
+
 } = {}) => {
 
 	return {
