@@ -1,5 +1,4 @@
 
-
 export const TMDBPeopleEntity = ({
 	
 	combined_credits = { cast : [] },

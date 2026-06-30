@@ -16,6 +16,6 @@ export default function appMain({ main, on, publish }: Component) {
 		e.preventDefault()
 		const url = e.delegateTarget.href	
 		document.body.classList.add('loading')
-		setTimeout(() => location.href = url, 300)
+		setTimeout(() => location.href = url, 200)
 	}
 }

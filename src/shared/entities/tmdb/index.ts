@@ -13,6 +13,7 @@ export const TMDBEntity = ({
 	...data
 
 } = {} as any) => {
+
 	return {
 		...data,
 		name,
